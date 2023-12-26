@@ -1,0 +1,282 @@
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Heading Section Style */
+header {
+    background-image: url('../images/banner/banner1.png');
+    height: 940px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-box {
+    width: 50%;
+    margin: 220px 230px 0px 0px;
+    text-align: right;
+    justify-items: flex-end;
+
+}
+
+.heading-title {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.heading-description {
+    margin: 0px 0px 30px 400px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.heading-btn {
+    font-family: Work Sans;
+    border-radius: 5px;
+    border-style: none;
+    background: #F15B22;
+    width: 160px;
+    height: 65px;
+}
+
+.heading-btn a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+/* Main Container style */
+/* Fail Section */
+
+.fail-container {
+    margin: 140px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fail-img {
+    padding: 20px;
+    margin-left: 200px;
+}
+
+.fail-detail-box {
+    margin: 270px 150px 0px 0px;
+    padding-right: 152px;
+    width: 450px;
+}
+
+.fail-title {
+    color: #151414;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    width: 300px;
+}
+
+.fail-detail {
+    color: #444343;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 24px;
+    width: 400px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.icon-box {
+
+    display: block;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon svg {
+    padding: 12px 8px 10px 0px;
+}
+
+.fail-list {
+    padding: 10px;
+    color: #444343;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Motivational Video  */
+
+.motivation-video{
+    display: block;
+    margin: 150px auto;
+    width: 1440px;
+    box-shadow: 0px 0px 100px #0059ff;
+    
+}
+.motivation-video iframe{
+    width: 1440px;
+    height: 720px;
+}
+
+/* My Plan section style */
+
+.plan-heading {
+    color: #151414;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}
+
+.plan-container {
+    font-family: 'Open Sans', sans-serif;
+    margin: 55px 280px 130px;
+}
+
+.plan-item-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-icon {
+    margin: 10px 100px;
+}
+
+.plan-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.plan-description {
+    color: #737272;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 16px;
+}
+
+/* Call Container */
+
+.call-container {
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin: 0px auto;
+    margin-bottom: 130px;
+}
+
+.call-box {
+    background-image: url('../images/gradient2.png');
+    height: 100%;
+}
+
+.call-title {
+    color: #FFF;
+    font-size: 40px;
+    padding: 60px 0px 24px 60px;
+    width: 450px;
+}
+
+.call-now-btn {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: white;
+    color: #F15B22;
+    font-size: 20px;
+    margin-left: 60px;
+    font-weight: 900;
+}
+
+/* Footer Section style */
+
+.footer {
+    display: flex;
+    background: var(--Dark-01, #151414);
+    font-family: 'Open Sans', sans-serif;
+    color: #F8F8F8;
+}
+
+.future-box {
+    margin: 130px 350px 130px 230px;
+}
+
+.future-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.future-detail {
+    width: 485px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.social-icon-box {
+    margin-top: 32px;
+}
+
+.social-icon-box img {
+    margin-right: 20px;
+}
+
+.subscribe-box {
+    margin-top: 130px;
+    display: block;
+}
+
+.subscribe-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.email-box {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    background-color: #151414;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 325px;
+    height: 64px;
+}
+
+.email-box::placeholder{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.subscribe-btn {
+    color: #F15B22;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    padding: 20px 35px;
+    border-style: none;
+    border-radius: 8px;
+}
+
